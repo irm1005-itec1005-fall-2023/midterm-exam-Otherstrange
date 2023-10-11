@@ -34,4 +34,69 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#ede0d4;
+  flex-direction:column;
+  width:400px;
+}
+
+header {
+  display:flex;
+  flex-direction:column;
+  color:#b08968;
+  font-size:.7rem;
+  background-color:#f3f3f3;
+  border-top-left-radius:2rem;
+  border-top-right-radius:2rem;
+}
+
+header h2 {
+  margin-left:1rem;
+  margin-top:1rem;
+}
+
+header.cappuccino-img {
+  object-fit:cover;
+}
+
+main {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background-color:#f3f3f3;
+  color:#7f5539;
+  border-bottom-left-radius:2rem;
+  border-bottom-right-radius:2rem;
+}
+
+main h1 {
+  margin-left:1rem;
+}
+
+main .desc {
+  margin-left:1rem;
+}
+
+main .price {
+  font-size:3rem;
+  margin:1rem;
+}
+
+main a {
+  display:flex;
+  flex-direction:row;
+  border-radius:1rem;
+  text-decoration:none;
+  background-color:#7f5539;
+  color:#f3f3f3;
+  padding:1rem;
+  margin:1rem;
+  justify-content:center;
+}
+
+main a:hover {
+  text-decoration:underline;
+  color:#cdcdcd;
 }
